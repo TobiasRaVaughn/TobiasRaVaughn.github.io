@@ -44,6 +44,10 @@
         createCollectable(type.max, 793, 142, 14, 0.9);
         createCollectable(type.steve, 794, 142, 14, 0.9);
         createCollectable(type.grace, 795, 142, 14, 0.9);
+        createCollectable(type.db, 248, 352, 11, 0.9);
+        createCollectable(type.db, 358, 252, 11, 0.9);
+        createCollectable(type.db, 343, 552, 11, 0.9);
+        createCollectable(type.db, 128, 412, 11, 0.9);
 
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////

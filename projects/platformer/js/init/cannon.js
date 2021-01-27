@@ -27,11 +27,11 @@
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         // example: 
-        createCannon("top", 450);//Can1
+        createCannon("top", 250);//Can1
         createCannon("bottom" , 450);//Can2
         createCannon("right", 92);//Can3
         createCannon("left", 92);//Can4
-        createCannon("bottom", 353);//Can5
+        createCannon("bottom", 653);//Can5
 
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////

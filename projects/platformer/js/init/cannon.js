@@ -29,8 +29,8 @@
         // example: 
         createCannon("top", 450);//Can1
         createCannon("bottom" , 450);//Can2
-        createCannon("right", 272);//Can3
-        createCannon("left", 286);//Can4
+        createCannon("right", 172);//Can3
+        createCannon("left", 186);//Can4
         createCannon("bottom", 353);//Can5
 
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////

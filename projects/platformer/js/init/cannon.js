@@ -34,7 +34,7 @@
         createCannon("bottom", 653);//Can5
         createCannon("right", 142);//Can6
         createCannon("left",142);//Can7
-        createCannon("bottom",325)
+        createCannon("bottom",325);
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };

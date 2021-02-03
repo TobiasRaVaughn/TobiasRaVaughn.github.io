@@ -48,7 +48,6 @@
         createCollectable(type.db, 358, 252, 11, 0.9);
         createCollectable(type.db, 343, 552, 11, 0.9);
         createCollectable(type.db, 128, 412, 11, 0.9);
-
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };

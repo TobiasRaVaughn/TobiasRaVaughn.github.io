@@ -73,8 +73,8 @@
             var positionY = 0;
             var speedY = 10;
             var boardHeight =jQuery(window).height();
-            var randNum = Math.random() * boardWidth;
-            var endGameClick = 10;
+            var randNum = Math.random() * 100;
+            var endGameClick = 20;
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
@@ -88,7 +88,7 @@
                     return speed = -speed;
                 }
                 if (positionX < 0){
-                    return speed=-speed;
+                    return speed= -speed;
                 }
                 if(positionY > boardHeight){
                     return speedY = -speedY;
@@ -109,7 +109,7 @@
                 positionX = randNum;
                 points = points + 1;
                 changeBoxText(points);
-                speed = speed + 3;
+                speed = speed + 14;
                 
                 function gameEndingCode (killerVar) {
                     if (killerVar <= 0) {

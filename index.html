@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Ace's One & Only Website</title>
+            <title> "Ace's One & Only Website"</title>
 <style>
     body {
         background: rgb(255, 250, 250);
@@ -55,13 +55,31 @@
         background: rgb(255,0,0);
         display: flex;
     }
+    .btn {
+        width: 230px;
+        height: 65px;
+        font-size: 1.3rem;
+        background: #383838;
+        border: none;
+        outline: none;
+        color: white;
+        border: 2px solid #696969;
+        border-radius: 50px;
+        cursor: pointer; font-family: 'helvetica',cursive; 
+        transition: all 0.4s;   
+        display:block;            
+    }
+    .btn:hover{
+        box-shadow: inset 0 0 0 5px #252525, inset 0 0 0 10px #6930c3,
+        inset 0 0 0 15px #64dfdf;
+    }
     .sidebar {
         margin-right: 25px;
         padding: 10px;
     }
     .sidebar-img {
-        height: 450px;
-        width: 300px;
+        
+        width: 200px;
     }
     .content {
         flex: 1;
@@ -84,10 +102,19 @@
                 <h1>Ace's Official Website</h1>
                 <ul id="nav-ul">
                     <li class="nav-li">
-                      <a href="index.html"> Home </a>
+                        <div class="index.html">
+                            <button class="btn">Home</button>
+                        </div>   
+                     <!--<a href="index.html"> Home </a>-->
+                      
                     </li>
                     <li class="nav-li">
-                      <a href="portfolio.html"> Portfolio </a>
+                        <div class="portfolio.html">
+                            <a href = "portfolio.html"><button class="btn">Portfolio</button></a>
+                        </div>
+
+                     <!-- <a href="portfolio.html"> Portfolio </a>-->
+                        
                     </li>
                 </ul>   
             </nav>

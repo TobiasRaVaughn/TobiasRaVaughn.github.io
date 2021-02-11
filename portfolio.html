@@ -75,7 +75,6 @@
                 position: relative;
                 animation-name: shake;
                 animation-duration: 5s;
-                animation-iteration-count: infinite;
                 animation-timing-function: ease-in;
                 cursor: pointer; 
                 font-family: 'helvetica',cursive; 
@@ -88,26 +87,26 @@
                 animation-name: shakeAnim;
             }
             @keyframes shakeAnim {
-  0% {left: 0}
-  1% {left: -3px}
-  2% {left: 5px}
-  3% {left: -8px}
-  4% {left: 8px}
-  5% {left: -5px}
-  6% {left: 3px}
-  7% {left: 0}
-}
+            0% {left: 0}
+            1% {left: -3px}
+            2% {left: 5px}
+            3% {left: -8px}
+            4% {left: 8px}
+            5% {left: -5px}
+            6% {left: 3px}
+            7% {left: 0}
+            }
 
-@keyframes shake {
-  0% {left: 0}
-  1% {left: -3px}
-  2% {left: 5px}
-  3% {left: -8px}
-  4% {left: 8px}
-  5% {left: -5px}
-  6% {left: 3px}
-  7% {left: 0}
-}
+            @keyframes shake {
+            0% {left: 0}
+            1% {left: -3px}
+            2% {left: 5px}
+            3% {left: -8px}
+            4% {left: 8px}
+            5% {left: -5px}
+            6% {left: 3px}
+            7% {left: 0}
+            }
             #portfolio {
                 list-style-type: none;
                 padding-left: 0;
@@ -128,22 +127,33 @@
                 text-decoration: none;
                 color: #454545;
             }
+            #index{
+                text-decoration: none;
+                color: #454545;
+            }
         </style>
     </head>
 
     <body>
       <div id="all-contents">
           <nav>
-            <h1>Ace's Official Website</h1>
+                <h1><a href="index.html">Ace's Official Website</a></h1>
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/tgY1b0AX7B8?start=2" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
             <ul id="nav-ul">
                 <li class="nav-li">
-                    <div class="index.html">
+                    <div class="index">
                             <a href = "index.html"><button class="btn">Home</button></a>
                         </div>
                   <!--<a class="nav-a" href="index.html">Home</a>-->
                 </li>
                 <li class="nav-li">
-                     <div class="portfolio.html">
+                     <div class="portfolio">
                             <button class="btn">Portfolio</button>
                         </div> 
                  <!-- <a class="nav-a" href="portfolio.html">Portfolio</a>-->
